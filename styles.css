@@ -1,0 +1,53 @@
+.header-container,
+.hero-container {
+    background-color: #1F2937;
+}
+
+.hero-title,
+.logo,
+a {
+    color: #F9FAF8;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.sign-up-button,
+.button-container {
+    background-color: #3882F6;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-family: 'light italic';
+    font-size: 36px;
+    color: #1F2937;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
