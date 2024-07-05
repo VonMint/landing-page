@@ -7,53 +7,59 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <div class="header-container">
+    <div class="header-container flex-class">
         <div class="logo">Header Logo</div>
-        <ul>
+        <ul class="flex-class">
             <li><a href="#">header link one</a></li>
             <li><a href="#">header link two</a></li>
             <li><a href="#">header link three</a></li>
         </ul>
     </div>
     
-    <div class="hero-container">
-        <h1 class="hero-title">This website is awesome</h1>
-        <p class="hero-subtext">This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast</p>
-        <button class="sign-up-button">Sign up</button>
-        <img src="#" alt="this is a placeholder image" width=500px height=300px>
+    <div class="hero-container flex-class">
+        <div class="hero-text-container flex-class">
+            <h1 class="hero-title">This website is awesome</h1>
+            <p class="subtext">This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast</p>
+            <button class="sign-up-button">Sign up</button>
+        </div>
+        <img class="header-image" src="./images/Sprite-0003.png" alt="this is a placeholder image" width=400px height=250px>
     </div>
 
-    <div class="container">
+    <div class="container flex-class">
         <h2 class="information-header">Some random information.</h2>
-        <div class="showcase-container">
-            <img class="showcase-image" src="#" alt="showcase image 1" width=250px height=250px>
-            <p>this is some subtext under and illustration or image</p>
-        </div>
-        <div class="showcase-container">
-            <img class="showcase-image" src="#" alt="showcase image 2" width=250px height=250px>
-            <p>this is some subtext under and illustration or image</p>
-        </div>
-        <div class="showcase-container">
-            <img class="showcase-image" src="#" alt="showcase image 3" width=250px height=250px>
-            <p>this is some subtext under and illustration or image</p>
-        </div>
-        <div class="showcase-container">
-            <img class="showcase-image" src="#" alt="showcase image 4" width=250px height=250px>
-            <p>this is some subtext under and illustration or image</p>
+        <div class="images flex-class">
+            <div class="showcase-container flex-class">
+                <img class="showcase-image" src="./images/Sprite-0002.png" alt="showcase image 1" width=250px height=250px>
+                <p class="showcase-text">this is some subtext under and illustration or image</p>
+            </div>
+            <div class="showcase-container flex-class">
+                <img class="showcase-image" src="./images/Sprite-0002.png" alt="showcase image 2" width=250px height=250px>
+                <p class="showcase-text">this is some subtext under and illustration or image</p>
+            </div>
+            <div class="showcase-container flex-class">
+                <img class="showcase-image" src="./images/Sprite-0002.png" alt="showcase image 3" width=250px height=250px>
+                <p class="showcase-text">this is some subtext under and illustration or image</p>
+            </div>
+            <div class="showcase-container flex-class">
+                <img class="showcase-image" src="./images/Sprite-0002.png" alt="showcase image 4" width=250px height=250px>
+                <p class="showcase-text">this is some subtext under and illustration or image</p>
+            </div>
         </div>
     </div>
 
-    <div class="quote-container">
-        <div class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice</div>
+    <div class="quote-container flex-class">
+        <div class="quote"><em>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice</em></div>
         <div class="author">-Thor, God of Thunder</div>
     </div>
 
-    <div class="button-container">
-        <h3>Call to action! It's time!</h3>
-        <p>Sign up for our product by clicking that button right over there!</p>
+    <div class="button-container flex-class">
+        <div class="contrast-container flex-class">
+            <h3 class="action-title">Call to action! It's time!</h3>
+            <p class="subtext">Sign up for our product by clicking that button right over there!</p>
+        </div>
         <button class="contrast-sign-up">Sign up</button>
     </div>
 
-    <div class="footer-container">Copyright &copy; The Odin Project 2021</div>
+    <div class="footer-container flex-class">Copyright &copy; The Odin Project 2021</div>
 </body>
 </html>
